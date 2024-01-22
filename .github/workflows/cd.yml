@@ -28,7 +28,7 @@ publish:
       with:
         name: artifact
         path: dist
-    - uses: pypa/gh-actions-pypi-publis@release/v1
+    - uses: pypa/gh-actions-pypi-publish@release/v1
       with:
         repository-url: https:test.pypi.org/legacy/
 
